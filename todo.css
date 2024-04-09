@@ -1,0 +1,104 @@
+body {
+  /* background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgb(253, 104, 45) 100%); */
+  font-family: Arial, sans-serif;
+  background-image: url("image1.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#todo-container {
+  background: gold;
+  width: 400px;
+  margin: 0 auto;
+  border: 2px solid #0033ff;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  border:4px solid black;
+  width:40%;
+  box-shadow:5px 5px 5px 0px rgb(0, 0, 0), -3px -3px 2px  0.5px black;
+}
+
+#header {
+  margin: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; 
+  color:rgb(41,33,33);
+}
+
+#input-box {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  
+}
+
+#add-task-button {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e60ea;
+}
+
+#add-task-button:hover {
+  background-color: #9eb7fd; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+}
+
+li {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: aqua;
+  color: black;
+
+}
+
+.editbtn, .deletebtn {
+  float: right;
+  color: black;
+  cursor: pointer;
+  margin: 4px 7px;
+  padding: 3px 8px;
+  background-color: transparent;
+  border: 2px solid crimson;
+  border-radius: 5px;
+ justify-content: center;
+ margin-bottom: 15px;
+} 
+
+.editbtn:hover, .deletebtn:hover {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+#task{
+  color:black;
+}
+
